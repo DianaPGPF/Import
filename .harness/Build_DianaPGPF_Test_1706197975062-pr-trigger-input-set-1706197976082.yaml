@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DianaPGPF_Test_1706197975062-pr-trigger-input-set
+  identifier: Build_DianaPGPF_Test_1706197975062prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_DianaPGPF_Test_1706197975062
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
